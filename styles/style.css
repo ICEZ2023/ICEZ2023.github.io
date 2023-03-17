@@ -1,0 +1,51 @@
+html {
+    /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 16px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;
+
+  }
+
+  body {
+    /*强制页面宽度为600px*/
+    width: 600px;
+    /*外边距，上下为0 左右auto为水平左右对称*/
+    margin: 20px auto;
+    /*给元素指定背景颜色*/
+    background-color: #FF9500;
+    /*内边距设置 上 下 左 右四个值 2个值 就是上下 左右 3个值上 下 左右*/
+    padding: 0 20px 20px 20px;
+    /*5像素 实线 黑色 边框*/
+    border: 5px solid black;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    /*水平偏移*/
+    margin: 0;
+    /*垂直偏移*/
+    padding: 20px 0;
+    /*阴影基色*/
+    color: #00539F;
+    /*阴影模糊半径*/
+    text-shadow: 3px 3px 6px black;
+  }
+  
+  p,li{
+    font-size: 16px;
+    /*line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字*/
+    line-height: 2;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(244, 203, 203);
+  }
+  div{
+    text-align: center;
+  }
+  img{
+    /*赋予图片块级行为*/
+    display: block;
+    /*外边框上下为0 左右水平对称*/
+    margin: 0 auto;
+  }
